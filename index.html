@@ -4,57 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Home Co-Living Ltd</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Georgia', serif;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background-color: #000;
-      color: #d4af37;
-      text-align: center;
-      padding: 2rem;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      background-color: #222;
-    }
-    nav a {
-      color: #d4af37;
-      text-decoration: none;
-      padding: 1rem 2rem;
-      display: inline-block;
-    }
-    nav a:hover {
-      background-color: #444;
-    }
-    .hero {
-      background: url('Coliving_Hero_With_Text.png') center center/cover no-repeat;
-      height: 800px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      text-align: center;
-    }
-    .section {
-      padding: 4rem 2rem;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    .section h2 {
-      color: #000;
-    }
-    .footer {
-      background-color: #000;
-      color: #d4af37;
-      text-align: center;
-      padding: 2rem;
-    }
-  </style>
+  <link rel="stylesheet" href="home/styles.css">
 </head>
 <body>
   <header>
@@ -70,7 +20,12 @@
     <a href="#contact">Contact</a>
   </nav>
 
-  <div class="hero"></div>
+  <div class="hero">
+    <div class="hero-overlay">
+      <h2>Welcome to My Home Co-Living</h2>
+      <p>Experience high-quality living and a connected community.</p>
+    </div>
+  </div>
 
   <section class="section" id="about">
     <h2>About Us</h2>
@@ -80,7 +35,6 @@
   <section class="section" id="properties">
     <h2>Our Properties</h2>
     <p>We specialise in high-end, fully-furnished co-living properties. Each space is thoughtfully designed with comfort, aesthetics, and social connection in mind.</p>
-    <!-- Add property cards or slideshow here -->
   </section>
 
   <section class="section" id="vision">
@@ -99,3 +53,4 @@
   </footer>
 </body>
 </html>
+
